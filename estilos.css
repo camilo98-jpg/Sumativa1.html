@@ -1,1 +1,108 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  background-color: #d50000;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #fff;
+}
+
+/* Navegación */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  background: #b71c1c;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #ef5350;
+}
+
+/* Secciones */
+section {
+  margin-top: 40px;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ff5252;
+}
+
+/* Luchadores */
+.luchadores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Galería */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 10px;
+  color: #bbb;
+}
 
