@@ -131,5 +131,31 @@ footer {
   color: #d00000;
   margin-top: 20px;
 }
+#contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+
+#contacto input, #contacto textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#contacto button {
+  background-color: #d50000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 
