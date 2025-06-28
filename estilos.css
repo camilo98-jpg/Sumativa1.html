@@ -67,7 +67,14 @@ section h2 {
   justify-content: center;
   margin-top: 20px;
 }
-
+.marcas{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+  
 .card {
   background-color: #333;
   padding: 15px;
@@ -84,9 +91,10 @@ section h2 {
 
 /* Galería */
 .galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
+   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
   margin-top: 20px;
 }
 
