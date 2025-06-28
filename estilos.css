@@ -74,6 +74,14 @@ section h2 {
   justify-content: center;
   margin-top: 20px;
 }
+.img-zoom {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.img-zoom:hover {
+  transform: scale(1.05);
+}
+
   
 .card {
   background-color: #333;
