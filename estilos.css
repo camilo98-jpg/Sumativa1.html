@@ -68,8 +68,8 @@ section h2 {
   margin-top: 20px;
 }
 .marcas {
-    display: flex;
-  flex-wrap: nowwrap;
+  display: flex;
+  flex-wrap: nowrap;
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
@@ -92,7 +92,7 @@ section h2 {
 /* Galería */
 .galeria {
    display: flex;
-  flex-wrap: nowwrap;
+  flex-wrap: nowrap;
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
