@@ -105,4 +105,22 @@ footer {
   border-radius: 10px;
   color: #bbb;
 }
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #d00000;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.video-titulo {
+  text-align: center;
+  font-size: 1.5em;
+  color: #d00000;
+  margin-top: 20px;
+}
+
 
