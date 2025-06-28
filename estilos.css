@@ -67,7 +67,7 @@ section h2 {
   justify-content: center;
   margin-top: 20px;
 }
-.Marcas {
+.marcas {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
