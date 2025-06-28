@@ -157,5 +157,24 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .luchadores,
+  .marcas,
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+}
+
 
 
