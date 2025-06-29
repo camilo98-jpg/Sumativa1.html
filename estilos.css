@@ -1,4 +1,4 @@
-/* Reset general */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   padding: 20px;
 }
 
-/* Encabezado */
+
 header {
   background-color: #d50000;
   text-align: center;
@@ -25,7 +25,7 @@ header h1 {
   color: #fff;
 }
 
-/* Navegación */
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ nav a:hover {
   background: #ef5350;
 }
 
-/* Secciones */
+
 section {
   margin-top: 40px;
 }
@@ -59,7 +59,7 @@ section h2 {
   color: #ff5252;
 }
 
-/* Luchadores */
+
 .luchadores {
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +97,7 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Galería */
+
 .Galeria {
   display: flex;
   flex-wrap: nowrap;
@@ -113,7 +113,7 @@ section h2 {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   margin-top: 50px;
