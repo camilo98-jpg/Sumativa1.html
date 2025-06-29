@@ -79,7 +79,7 @@ section h2 {
   cursor: pointer;
 }
 .img-zoom:hover {
-  transform: scale(1.05);
+  transform: scale(1.10);
 }
 
   
