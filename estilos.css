@@ -69,7 +69,7 @@ section h2 {
 }
 .marcas {
   display: flex;
-  flex-wrap: rap;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
