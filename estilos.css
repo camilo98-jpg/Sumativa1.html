@@ -7,67 +7,64 @@
 
 /* Base */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #121212;
-  color: #f1f1f1;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
   padding: 20px;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-  background: linear-gradient(to right, #b00000, #ff1a1a);
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+  color: #fff;
   text-align: center;
-  padding: 30px 10px;
+  padding: 35px 15px;
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
   font-size: 3em;
-  color: #fff;
+  letter-spacing: 3px;
   text-shadow: 2px 2px #000;
 }
 
-/* Nav */
+/* Navegación */
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
-  background: #b00000;
-  padding: 10px 18px;
-  border-radius: 8px;
+  background-color: #415a77;
+  padding: 10px 16px;
+  border-radius: 6px;
   font-weight: bold;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
 }
 
 nav a:hover {
-  background: #ff1a1a;
+  background-color: #778da9;
 }
 
-/* Section titles */
+/* Títulos */
 section h2 {
-  color: #ff4747;
   font-size: 2em;
-  margin: 30px 0 15px;
-  border-left: 5px solid #b00000;
+  color: #1b263b;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-left: 5px solid #415a77;
   padding-left: 10px;
 }
 
-/* Text */
-p {
-  margin-bottom: 20px;
-}
-
-/* Cards */
+/* Cards y contenedores */
 .luchadores,
 .marcas,
 .galeria {
@@ -78,22 +75,23 @@ p {
 }
 
 .card {
-  background-color: #1e1e1e;
-  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
   border-radius: 12px;
+  padding: 15px;
   text-align: center;
-  max-width: 220px;
-  box-shadow: 0 0 12px rgba(255, 0, 0, 0.2);
-  transition: transform 0.3s;
+  max-width: 230px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(65, 90, 119, 0.3);
 }
 
 .card img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 10px;
 }
 
@@ -102,28 +100,26 @@ p {
   transition: transform 0.3s ease;
   cursor: pointer;
 }
-
 .img-zoom:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-/* Galería horizontal */
+/* Galería */
 .galeria img {
   width: 200px;
   border-radius: 10px;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Wrestlemania video */
+/* Video Wrestlemania */
 .video-container {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
-  padding: 10px;
-  border: 3px solid #b00000;
+  background-color: #e9ecef;
+  padding: 20px;
   border-radius: 12px;
-  background-color: #f8f8f8;
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
 }
 
 .video-container iframe {
@@ -132,50 +128,49 @@ p {
   height: 315px;
 }
 
-/* Video title */
+/* Subtítulo del video */
 h3 {
-  color: #ffffff;
-  margin: 20px 0 10px;
-  font-size: 1.4em;
   text-align: center;
+  margin-top: 20px;
+  color: #1b263b;
 }
 
 /* Contacto */
 #contacto form {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   padding: 25px;
+  margin: 40px auto;
   border-radius: 12px;
   max-width: 500px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  box-shadow: 0 0 12px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+#contacto label {
+  font-weight: bold;
 }
 
 #contacto input,
 #contacto textarea {
   padding: 10px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 6px;
   width: 100%;
-  background-color: #2e2e2e;
-  color: white;
+  margin-bottom: 15px;
 }
 
 #contacto button {
-  background-color: #b00000;
+  background-color: #415a77;
   color: white;
   padding: 10px;
   border: none;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
 }
 
 #contacto button:hover {
-  background-color: #ff1a1a;
+  background-color: #1b263b;
 }
 
 /* Footer */
@@ -183,13 +178,13 @@ footer {
   text-align: center;
   margin-top: 60px;
   padding: 20px;
-  background-color: #111;
+  background-color: #0d1b2a;
+  color: #aaa;
   border-radius: 12px;
-  color: #bbb;
   font-size: 0.95em;
 }
 
-/* Responsivo */
+/* Responsive */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
