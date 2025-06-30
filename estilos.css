@@ -190,7 +190,8 @@ footer {
   }
   .luchadores,
   .marcas,
-  .galeria {
+  .galeria
+  .Wrestemania{
     flex-direction: column;
     align-items: center;
   }
