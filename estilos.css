@@ -1,11 +1,10 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #c6d1d1;
@@ -14,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+
 header {
   background: linear-gradient(90deg, #0d1b2a, #1b263b);
   color: #fff;
@@ -30,7 +29,7 @@ header h1 {
   text-shadow: 2px 2px #000;
 }
 
-/* Navegación */
+
 nav ul {
   list-style: none;
   display: flex;
@@ -54,7 +53,7 @@ nav a:hover {
   background-color: #778da9;
 }
 
-/* Títulos */
+
 section h2 {
   font-size: 2em;
   color: #1b263b;
@@ -64,7 +63,7 @@ section h2 {
   padding-left: 10px;
 }
 
-/* Cards y contenedores */
+
 .luchadores,
 .marcas,
 .galeria {
@@ -95,7 +94,7 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Imagen zoom */
+
 .img-zoom {
   transition: transform 0.3s ease;
   cursor: pointer;
@@ -104,14 +103,14 @@ section h2 {
   transform: scale(1.05);
 }
 
-/* Galería */
+
 .galeria img {
   width: 200px;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Video Wrestlemania */
+
 .video-container {
   display: flex;
   justify-content: center;
@@ -128,14 +127,14 @@ section h2 {
   height: 315px;
 }
 
-/* Subtítulo del video */
+
 h3 {
   text-align: center;
   margin-top: 20px;
   color: #1b263b;
 }
 
-/* Contacto */
+
 #contacto form {
   background-color: #ffffff;
   padding: 25px;
@@ -173,7 +172,7 @@ h3 {
   background-color: #1b263b;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   margin-top: 60px;
@@ -184,7 +183,7 @@ footer {
   font-size: 0.95em;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
